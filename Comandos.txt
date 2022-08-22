@@ -1,0 +1,6 @@
+- Compilação de programas em java:
+javac arquivo.java (cria arquivo.class)
+
+- Execução:
+java arquivo
+

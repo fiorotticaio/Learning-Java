@@ -1,0 +1,35 @@
+Código fonte (java) -> Compilador (javaC) -> bytecode -> JVM (máquina virtual) -> Computador
+
+WORA -> Write once run anywhere
+
+Quem quer apenas usar Java -> JRE
+    - JVM
+        - loader / verificador
+        - interpretador / gerenciador de memória
+        - compilador JIT (just in  time)
+    - Bibliotecas
+
+Quem quer desenvolver pra Java -> JDK (Java SE)
+    - JRE
+    - JavaLang
+    - JavaTools
+        - JavaC
+        - Debugger
+        - APIs
+
+
+/*==== Para mais de uma palavra =====*/
+-> primeira letra maiuscula: classe
+-> primeira letra minuscula com outras maiuscula: atributos, métodos, variável, parâmetro
+-> todas letras minusculas: pacote
+-> todas letras maiusculas: constantes
+
+/*==== Algumas bibliotecas ====*/
+package java.applet; -> criar aplicativos
+package java.util; -> utilitarios
+package java.math; -> funcoes matematicas
+package java.net; -> redes
+package javax.sound; -> biblioteca extendida para som
+package javax.media; -> biblioteca extendida para media
+package javax.swing;
+package javafx.fxml;
